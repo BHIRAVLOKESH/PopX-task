@@ -1,38 +1,39 @@
-# PopX Authentication UI
+# PopX Mobile Authentication Interface
 
-![React](https://img.shields.io/badge/React-Frontend-blue?logo=react)
-![TailwindCSS](https://img.shields.io/badge/TailwindCSS-Styling-38B2AC?logo=tailwindcss)
-![Vite](https://img.shields.io/badge/Vite-Build%20Tool-purple?logo=vite)
-![Netlify](https://img.shields.io/badge/Deployed%20on-Netlify-00C7B7?logo=netlify)
-![License](https://img.shields.io/badge/Project-Frontend%20Demo-green)
-
-A **mobile-first authentication UI** inspired by the **PopX design**, built using **React (Vite)** and **Tailwind CSS**.  
-This project focuses on **modern frontend development practices**, including component-based architecture, client-side routing, responsive layouts, and clean UI design.
-
-The application is **centered on the webpage to simulate a mobile device experience on desktop screens**.
+A **pixel-perfect mobile authentication interface** built using **React**, featuring a clean UI, smooth navigation, and a centered mobile layout.  
+This project demonstrates modern **frontend development best practices**, focusing on usability, accessibility, and responsive UI design.
 
 ---
 
 ## Live Demo
 
-🌐 **Website**  
+🌐 **Website:**  
 https://melodious-madeleine-27d7cf.netlify.app/
 
-💻 **GitHub Repository**  
+💻 **GitHub Repository:**  
 https://github.com/BHIRAVLOKESH/PopX-task
 
 ---
 
-## Screens
+# Application Screens
 
-The application includes the following screens:
+## Welcome Screen
+![Welcome Screen](assets/welcome.png)
 
-- Welcome Screen
-- Create Account
-- Login
-- Account Settings
+---
 
-Navigation between screens happens **seamlessly using React Router without page reloads**.
+## Create Account Screen
+![Register Screen](assets/register.png)
+
+---
+
+## Login Screen
+![Login Screen](assets/login.png)
+
+---
+
+## Account Settings Screen
+![Account Screen](assets/account.png)
 
 ---
 
@@ -49,25 +50,23 @@ Navigation between screens happens **seamlessly using React Router without page 
 
 ## Features
 
-- Mobile-first responsive UI
-- Pixel-perfect layout implementation
-- Centered mobile app container
-- Floating input labels
-- Clean form components
-- Client-side form validation
-- Smooth page navigation
-- Accessible UI design
+- Pixel-perfect UI implementation based on the provided design
+- Mobile-first layout with a centered app container
+- Floating input labels inspired by the PopX style
+- Clean and reusable form components
+- Client-side validation
+- Proper button and link semantics
+- Seamless page navigation without reloads
+- Responsive and accessible UI design
 
 ---
 
 ## Authentication Flow
 
-For demonstration purposes, authentication is **simulated on the client side**.
-
 Create Account → Account Settings  
-Login → Account Settings
+Login → Account Settings  
 
-No backend or database integration is used in this project.
+For demonstration purposes, authentication is **simulated on the client side** without backend integration.
 
 ---
 
@@ -75,65 +74,28 @@ No backend or database integration is used in this project.
 
 Basic client-side validation is implemented using:
 
-- HTML attributes like `required` and `minLength`
-- Simple state-based checks to enable/disable submit buttons
+- Native HTML attributes such as `required` and `minLength`
+- Simple state-based checks to enable or disable submit buttons
 
-This keeps the UI simple while ensuring a better user experience.
+This keeps the code **clean while improving the user experience**.
 
 ---
 
 ## Project Structure
 
 ```
-src
- ├── assets
- ├── pages
- │   ├── Welcome.jsx
- │   ├── Register.jsx
- │   ├── Login.jsx
- │   └── Account.jsx
- ├── routes
- │   └── AppRoutes.jsx
- ├── App.jsx
- └── main.jsx
+src/
+├── assets/
+├── pages/
+│   ├── Welcome.jsx
+│   ├── Register.jsx
+│   ├── Login.jsx
+│   └── Account.jsx
+├── routes/
+│   └── AppRoutes.jsx
+├── App.jsx
+└── main.jsx
 ```
-
----
-
-## Installation
-
-Clone the repository
-
-```bash
-git clone https://github.com/BHIRAVLOKESH/PopX-task.git
-```
-
-Navigate to the project folder
-
-```bash
-cd PopX-task
-```
-
-Install dependencies
-
-```bash
-npm install
-```
-
-Run the development server
-
-```bash
-npm run dev
-```
-
----
-
-## Deployment
-
-The project is deployed on **Netlify**.
-
-Live Link  
-https://melodious-madeleine-27d7cf.netlify.app/
 
 ---
 
@@ -141,9 +103,5 @@ https://melodious-madeleine-27d7cf.netlify.app/
 
 **Bhirav Lokesh**
 
-GitHub  
+GitHub:  
 https://github.com/BHIRAVLOKESH
-
----
-
-⭐ If you found this project helpful, feel free to **star the repository**.
